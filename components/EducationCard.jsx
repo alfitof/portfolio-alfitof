@@ -12,11 +12,11 @@ const EducationCard = ({ education }) => {
             <div className="pl-4">
               <h4 className="text-white">{education.schoolName}</h4>
               <h6 className="text-white">{education.subHeader}</h6>
-              <Badge color="success" className="mr-1">
+              <Badge color="success" className="mr-1 text-white">
                 {education.duration}
               </Badge>
               {education.grade && (
-                <Badge color="primary" className="mr-1">
+                <Badge color="primary" className="mr-1 text-white">
                   {education.grade}
                 </Badge>
               )}
