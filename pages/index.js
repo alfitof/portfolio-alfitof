@@ -1,10 +1,6 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from '../styles/Home.module.css';
-
-const inter = Inter({ subsets: ['latin'] });
+import dynamic from 'next/dynamic';
+const Greetings = dynamic(() => import('../containers/Greetings'));
 
 export default function Home() {
-  return <h1>Ini web porto</h1>;
+  return <Greetings />;
 }
