@@ -99,7 +99,7 @@ export const educationInfo = [
   {
     schoolName: 'Telkom University',
     subHeader: 'Bachelor of Information Technology',
-    duration: '2022 - 2024',
+    duration: '2020 - 2024',
     grade: '3.65',
     descBullets: ['Participated in web creation for SMEs in the IT profession course.', 'Did an internship at Advanced Software Engineer Laboratory'],
   },
@@ -110,7 +110,7 @@ export const experience = [
     role: 'Intern Frontend Developer',
     company: 'Advanced Software Engineer',
     companylogo: '/img/icons/common/logo192.png',
-    date: 'Mei 2022 – Now',
+    date: 'Mei 2022 – Des 2022',
     desc: 'I intern as frontend web developer to slicing website Advanced Software Engineer design using ReactJS, Tailwind, and some other libraries.',
   },
 ];

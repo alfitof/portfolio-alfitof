@@ -18173,6 +18173,11 @@ textarea[resize='horizontal'] {
   width: 120px;
   border-radius: 50%;
 }
+.shp .shape-style-1 span {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
 .section-shaped .shape-style-1 .span-200 {
   height: 200px;
   width: 200px;
@@ -18238,6 +18243,14 @@ textarea[resize='horizontal'] {
   background: linear-gradient(45deg, #fd1a83e0, #ffffff9e);
 }
 .section-shaped .shape-style-1 :nth-child(7) {
+  height: 8rem;
+  width: 8rem;
+  bottom: 10%;
+  right: 2%;
+  background: linear-gradient(45deg, #b930ff, #ffffff6b);
+}
+
+.shp .shape-style-1 :nth-child(1) {
   height: 8rem;
   width: 8rem;
   bottom: 10%;

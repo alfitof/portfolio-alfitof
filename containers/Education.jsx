@@ -7,7 +7,7 @@ const Education = () => {
   return (
     educationInfo && (
       <section className="section pb-0 bg-gradient-purple my-5">
-        <Container style={{ paddingBottom: '8rem' }}>
+        <Container style={{ paddingBottom: '10rem' }}>
           <div className="d-flex px-3 pb-3">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -15,7 +15,9 @@ const Education = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-white">Education</h4>
+              <h4 className="display-3 text-white" style={{ marginTop: '0.4rem' }}>
+                Education
+              </h4>
             </div>
           </div>
           <Row className="row-grid align-items-center m-auto">

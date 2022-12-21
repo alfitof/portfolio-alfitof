@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@iconify/react": "^4.0.1",
     "@next/font": "13.0.7",
     "bootstrap": "^5.2.3",
+    "browserslist": "^4.21.4",
+    "caniuse-lite": "^1.0.30001439",
+    "classnames": "^2.3.2",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "headroom.js": "^0.12.0",

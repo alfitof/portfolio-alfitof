@@ -1,40 +1,37 @@
-import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText } from 'reactstrap';
+import React, { useState, useEffect } from 'react';
+// import { Link } from "react-router-dom";
+
+import { greetings, socialLinks } from '../portfolio';
+import Headroom from 'headroom.js';
+import Link from 'next/link';
+import { UncontrolledCollapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, Row, Col } from 'reactstrap';
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [collapseClasses, setCollapseClasses] = useState('');
+  const onExiting = () => setCollapseClasses('collapsing-out');
 
-  const toggle = () => setIsOpen(!isOpen);
+  const onExited = () => setCollapseClasses('');
+
+  useEffect(() => {
+    let headroom = new Headroom(document.getElementById('navbar-main'));
+    // initialise
+    headroom.init();
+  });
 
   return (
-    <div>
-      <Navbar>
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText>Simple Text</NavbarText>
-        </Collapse>
-      </Navbar>
-    </div>
+    <>
+      <header className="header-global">
+        <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
+          <Container>
+            <NavbarBrand href="/" className="mr-lg-5">
+              <h2 className="text-white" id="nav-title">
+                My Portfolio
+              </h2>
+            </NavbarBrand>
+          </Container>
+        </Navbar>
+      </header>
+    </>
   );
 };
 

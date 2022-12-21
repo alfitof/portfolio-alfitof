@@ -41,7 +41,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://developer-portfolio-1hanzla100.vercel.app/" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
@@ -115,7 +115,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://developer-portfolio-1hanzla100.vercel.app/" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://droozle.netlify.app/" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
@@ -187,7 +187,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://developer-portfolio-1hanzla100.vercel.app/" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://portfolio-alfitof.vercel.app/" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
@@ -222,7 +222,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://developer-portfolio-1hanzla100.vercel.app/" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
