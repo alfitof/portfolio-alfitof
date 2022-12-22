@@ -41,7 +41,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://ase-lab.vercel.app/" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
@@ -182,7 +182,7 @@ const Projects = () => {
                         <Icon icon="logos:bootstrap" data-inline="false"></Icon>
                       </div>
                       <br />
-                      <Button className="btn-icon mt-4" color="github" href="https://github.com/alfitof/kokumi-store" target="_blank" rel="noopener" aria-label="Github">
+                      <Button className="btn-icon mt-4" color="github" href="https://github.com/alfitof/portfolio-alfitof" target="_blank" rel="noopener" aria-label="Github">
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
                         </span>
@@ -222,7 +222,7 @@ const Projects = () => {
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://kokumi-store.vercel.app/" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
