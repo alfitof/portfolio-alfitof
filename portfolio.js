@@ -123,7 +123,7 @@ export const seoData = {
   title: 'Alfito Febriansyah',
   description: 'A Junior Fullstack Developer',
   author: 'Alfito Febriansyah',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  image: 'https://avatars.githubusercontent.com/u/91746558?v=4',
+  url: 'https://portfolio-alfitof.vercel.app',
   keywords: ['needsomesauce', 'Alfito Febriansyah', '@needsomesauce', 'alfitof', 'Portfolio', 'Alfito Portfolio ', 'Alfito Febriansyah Portfolio'],
 };
