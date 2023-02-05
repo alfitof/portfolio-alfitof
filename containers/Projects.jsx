@@ -169,7 +169,7 @@ const Projects = () => {
                     <div className="pl-4">
                       <h3>Portfolio Website</h3>
                       <p className="description mt-3">
-                        Portfolio Website built with NextJS and Bootstrap which
+                        Portfolio Website built with nextJS and Bootstrap which
                         <br />
                         helps showcase my work and let other people know about
                         <br />
@@ -205,24 +205,21 @@ const Projects = () => {
                 <CardBody>
                   <div className="d-flex px-3">
                     <div className="pl-4">
-                      <h3>Kokumi Landing Page Website</h3>
-                      <p className="description mt-3">Kokumi Landing Page Website built with HTML, CSS and Javascipt which can grab the visitors attention and present them with a Kokumi product</p>
+                      <h3>Kokumi Website</h3>
+                      <p className="description mt-3">Kokumi Website built with nextJS and tailwindCSS which can grab the visitors attention and present them with a Kokumi product</p>
                       <div className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2" id="html">
-                        <Icon icon="vscode-icons:file-type-html" data-inline="false"></Icon>
+                        <Icon icon="vscode-icons:file-type-light-next" data-inline="false"></Icon>
                       </div>
                       <div className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2" id="css">
-                        <Icon icon="vscode-icons:file-type-css" data-inline="false"></Icon>
-                      </div>
-                      <div className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2" id="javascript">
-                        <Icon icon="logos:javascript" data-inline="false"></Icon>
+                        <Icon icon="vscode-icons:file-type-tailwind" data-inline="false"></Icon>
                       </div>
                       <br />
-                      <Button className="btn-icon mt-4" color="github" href="https://github.com/alfitof/kokumi-store" target="_blank" rel="noopener" aria-label="Github">
+                      <Button className="btn-icon mt-4" color="github" href="https://github.com/alfitof/kokumi-next" target="_blank" rel="noopener" aria-label="Github">
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
                         </span>
                       </Button>
-                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://kokumi-store.vercel.app/" target="_blank" rel="noopener">
+                      <Button className="btn-icon mt-4 bg-gradient-purple" href="https://kokumi-next.vercel.app/" target="_blank" rel="noopener">
                         <span className="btn-inner--icon">
                           <i className="fa fa-arrow-right mr-2 text-white" />
                         </span>
