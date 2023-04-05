@@ -337,7 +337,7 @@ const Projects = () => {
               </Card>
             </Fade>
           </Col>
-          <Col lg="6">
+          {/* <Col lg="6">
             <Fade bottom duration={2000}>
               <Card className="mt-4">
                 <CardBody>
@@ -398,7 +398,7 @@ const Projects = () => {
                 </CardBody>
               </Card>
             </Fade>
-          </Col>
+          </Col> */}
           <Col lg="6">
             <Fade bottom duration={2000}>
               <Card className="mt-4">
@@ -407,9 +407,9 @@ const Projects = () => {
                     <div className="pl-4">
                       <h3>Chicken William Website</h3>
                       <p className="description mt-3">
-                        Chicken William Website built with nextJS and Sanity.io
-                        which can order the menu and present to visitor with a
-                        Chicken William products
+                        Chicken William Website built with nextJS, tailwindCSS
+                        and Sanity.io which can order the menu and present to
+                        visitor with a Chicken William products
                       </p>
                       <div
                         className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
@@ -425,6 +425,15 @@ const Projects = () => {
                         id="css"
                       >
                         <Icon icon="logos:sanity" data-inline="false"></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-tailwind"
+                          data-inline="false"
+                        ></Icon>
                       </div>
                       <br />
                       <Button

@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import { greetings } from '../portfolio';
+import React, { useEffect } from "react";
+import { greetings } from "../portfolio";
 
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Container, Row, Col } from "reactstrap";
 
-import GreetingLottie from '../components/DisplayLottie';
-import SocialLinks from '../components/SocialLinks';
+import GreetingLottie from "../components/DisplayLottie";
+import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
   useEffect(() => {
@@ -33,11 +33,16 @@ const Greetings = () => {
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   <div className="btn-wrapper my-4">
-                    <Button className="btn-white btn-icon mb-3 mb-sm-0 ml-1 bg-transparent border-white" href={greetings.resumeLink}>
+                    <Button
+                      className="btn-white btn-icon mb-3 mb-sm-0 ml-1 bg-transparent border-white"
+                      href={greetings.resumeLink}
+                    >
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-file text-white" />
                       </span>
-                      <span className="btn-inner--text text-white">Download CV</span>
+                      <span className="btn-inner--text text-white">
+                        Download CV
+                      </span>
                     </Button>
                   </div>
                 </Col>
@@ -49,7 +54,14 @@ const Greetings = () => {
           </Container>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew">
-            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
           </div>

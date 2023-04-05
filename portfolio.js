@@ -2,7 +2,7 @@ export const greetings = {
   name: "Alfito Febriansyah",
   title: "Hello guys, i'm Alfito!",
   description:
-    "I am passionate as a Software Engineer having web application experience with PHP, Codeigniter, React.js, Next.js and CSS Framework with Tailwind and bootstrap.",
+    "I am passionate as a Software Engineer having web application experience with PHP, Codeigniter, React, Next.js and CSS Framework with Tailwind and bootstrap.",
   resumeLink: "https://cv.aksel.co.id/r/7zgmwy",
 };
 
