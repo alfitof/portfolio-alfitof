@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 const Projects = () => {
   return (
-    <section className="section section-lg">
+    <section className="section section-sm">
       <Container>
         <div className="d-flex p-3">
           <div>

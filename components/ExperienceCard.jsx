@@ -1,27 +1,37 @@
-import React from 'react';
+import React from "react";
 
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from 'reactstrap';
+import {
+  Card,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  CardText,
+  Col,
+} from "reactstrap";
 
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
   return (
     <Col lg="6" className="m-auto">
       <Fade left duration={2000}>
-        <Card style={{ flex: 1 }} className="shadow-lg--hover mb-3 shadow border-0 text-center rounded">
+        <Card
+          style={{ flex: 1 }}
+          className="shadow-lg--hover mb-5 shadow border-0 text-center rounded-xl"
+        >
           <CardBody className="">
             <img
               src={data.companylogo}
               style={{
-                objectFit: 'cover',
+                objectFit: "cover",
                 left: 0,
                 right: 0,
-                top: '7rem',
-                marginLeft: 'auto',
-                marginRight: 'auto',
-                width: '8rem',
-                height: '8rem',
-                borderRadius: '50%',
+                top: "7rem",
+                marginLeft: "auto",
+                marginRight: "auto",
+                width: "8rem",
+                height: "8rem",
+                borderRadius: "50%",
               }}
               className="shadow mb-3"
               alt={data.companylogo}

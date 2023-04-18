@@ -2,7 +2,7 @@ export const greetings = {
   name: "Alfito Febriansyah",
   title: "Hello guys, i'm Alfito!",
   description:
-    "I am passionate as a Software Engineer having web application experience with PHP, Codeigniter, React, Next.js and CSS Framework with Tailwind and bootstrap.",
+    "I am passionate as a Software Engineer having web application experience with React, Next.js, PHP, Codeigniter, and CSS Framework with Tailwind and bootstrap.",
   resumeLink: "https://cv.aksel.co.id/r/7zgmwy",
 };
 
@@ -72,6 +72,10 @@ export const skillsSection = {
           skillName: "Bootstrap",
           fontAwesomeClassname: "logos:bootstrap",
         },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "vscode-icons:file-type-mongo",
+        },
       ],
     },
   ],
@@ -121,6 +125,13 @@ export const experience = [
     companylogo: "/img/icons/common/logo192.png",
     date: "Mei 2022 – Des 2022",
     desc: "I intern as frontend web developer to slicing website Advanced Software Engineer design using ReactJS, Tailwind, and some other libraries.",
+  },
+  {
+    role: "Teaching Factory Frontend Developer",
+    company: "Telkom Indonesia",
+    companylogo: "/img/icons/common/telkom.png",
+    date: "Feb 2023 – Now",
+    desc: "I had the opportunity to enhance my skills in various technologies such as React, GitLab, GitBash, and more. I learned valuable lessons in teamwork and project management.",
   },
 ];
 

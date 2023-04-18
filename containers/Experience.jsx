@@ -1,15 +1,15 @@
-import React from 'react';
-import { experience } from '../portfolio';
-import { Container, Row } from 'reactstrap';
+import React from "react";
+import { experience } from "../portfolio";
+import { Container, Row } from "reactstrap";
 
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
-import ExperienceCard from '../components/ExperienceCard';
+import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
   return (
     experience && (
-      <section className="section section-lg">
+      <section className="section section-sm">
         <Container>
           <div className="d-flex px-4 pb-5">
             <div>
