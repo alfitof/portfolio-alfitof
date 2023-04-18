@@ -131,7 +131,7 @@ export const experience = [
     company: "Telkom Indonesia",
     companylogo: "/img/icons/common/telkom.png",
     date: "Feb 2023 – Now",
-    desc: "I had the opportunity to enhance my skills in various technologies such as React, GitLab, GitBash, and more. I learned valuable lessons in teamwork and project management.",
+    desc: "I had the opportunity to enhance my skills in various technologies such as React, GitLab, Codebase, and more. I learned valuable lessons in teamwork and project management.",
   },
 ];
 
