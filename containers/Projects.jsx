@@ -468,6 +468,50 @@ const Projects = () => {
               </Card>
             </Fade>
           </Col>
+          <Col lg="6">
+            <Fade bottom duration={2000}>
+              <Card className="mt-4">
+                <CardBody>
+                  <div className="d-flex px-3">
+                    <div className="pl-4">
+                      <h3>E-Learning Course App</h3>
+                      <p className="description mt-3">
+                        E-Learning Course App built with Flutter and Dart which
+                        can can buy courses and study them through online
+                        learning
+                      </p>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon icon="logos:flutter" data-inline="false"></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="css"
+                      >
+                        <Icon icon="logos:dart" data-inline="false"></Icon>
+                      </div>
+                      <br />
+                      <Button
+                        className="btn-icon mt-4"
+                        color="github"
+                        href="https://github.com/alfitof/aplikasi-elearning-kelompok2"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Github"
+                        disabled
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                </CardBody>
+              </Card>
+            </Fade>
+          </Col>
         </Row>
       </Container>
     </section>
