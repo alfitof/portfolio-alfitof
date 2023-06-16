@@ -337,7 +337,7 @@ const Projects = () => {
               </Card>
             </Fade>
           </Col>
-          {/* <Col lg="6">
+          <Col lg="6">
             <Fade bottom duration={2000}>
               <Card className="mt-4">
                 <CardBody>
@@ -371,7 +371,7 @@ const Projects = () => {
                       <Button
                         className="btn-icon mt-4"
                         color="github"
-                        href="https://github.com/alfitof/kokumi-next"
+                        href="https://github.com/alfitof/kokumi-drink"
                         target="_blank"
                         rel="noopener"
                         aria-label="Github"
@@ -382,7 +382,7 @@ const Projects = () => {
                       </Button>
                       <Button
                         className="btn-icon mt-4 bg-gradient-purple"
-                        href="https://kokumi-next.vercel.app/"
+                        href="https://kokumi-drink.vercel.app/"
                         target="_blank"
                         rel="noopener"
                       >
@@ -398,7 +398,7 @@ const Projects = () => {
                 </CardBody>
               </Card>
             </Fade>
-          </Col> */}
+          </Col>
           <Col lg="6">
             <Fade bottom duration={2000}>
               <Card className="mt-4">
@@ -500,7 +500,6 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener"
                         aria-label="Github"
-                        disabled
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
