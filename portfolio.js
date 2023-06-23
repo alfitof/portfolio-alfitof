@@ -3,7 +3,8 @@ export const greetings = {
   title: "Hello guys, i'm Alfito!",
   description:
     "I am passionate as a Software Engineer having web application experience with React, Next.js, PHP, Codeigniter, and CSS Framework with Tailwind and bootstrap.",
-  resumeLink: "https://drive.google.com/file/d/1rxiNA50hKsAkE1wadiu5Nqm1gy7Q9tHb/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1rxiNA50hKsAkE1wadiu5Nqm1gy7Q9tHb/view?usp=sharing",
 };
 
 export const openSource = {
@@ -128,10 +129,17 @@ export const experience = [
   },
   {
     role: "Teaching Factory Frontend Developer",
-    company: "Telkom Indonesia",
+    company: "Telkom DBT",
     companylogo: "/img/icons/common/telkom.png",
     date: "Feb 2023 – Now",
     desc: "I had the opportunity to enhance my skills in various technologies such as React, GitLab, Codebase, and more. I learned valuable lessons in teamwork and project management.",
+  },
+  {
+    role: "Intern Frontend Developer",
+    company: "PT. Rudi Russel Indonesia",
+    companylogo: "/img/icons/common/logo.png",
+    date: "Jun 2023 – Now",
+    desc: "I intern as frontend web developer to redesign website Rudi Russel Academy design using NextJS and TailwindCSS",
   },
 ];
 
