@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import {
   Card,
@@ -20,7 +21,9 @@ const ExperienceCard = ({ data }) => {
           className="shadow-lg--hover mb-5 shadow border-0 text-center rounded-xl"
         >
           <CardBody className="">
-            <img
+            <Image
+              width={1000}
+              height={1000}
               src={data.companylogo}
               style={{
                 objectFit: "cover",
