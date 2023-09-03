@@ -1,9 +1,9 @@
-import { Icon } from '@iconify/react';
-import React, { Fragment } from 'react';
-import { Fade } from 'react-reveal';
-import { Col, Container, Row, UncontrolledTooltip } from 'reactstrap';
-import DisplayLottie from '../components/DisplayLottie';
-import { skillsSection } from '../portfolio';
+import { Icon } from "@iconify/react";
+import React, { Fragment } from "react";
+import { Fade } from "react-reveal";
+import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
+import DisplayLottie from "../components/DisplayLottie";
+import { skillsSection } from "../portfolio";
 
 const Skills = () => {
   return (
@@ -12,11 +12,11 @@ const Skills = () => {
         <div className="d-flex px-4 pt-4 pb-2">
           <div>
             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-              <i className="ni ni-settings text-purple" />
+              <i className="ni ni-settings text-red" />
             </div>
           </div>
           <div className="pl-4">
-            <h4 className="display-2 text-purple">{skillsSection.title}</h4>
+            <h4 className="display-2 text-red">{skillsSection.title}</h4>
           </div>
         </div>
         {skillsSection.data.map((section, index) => {
@@ -34,10 +34,20 @@ const Skills = () => {
                     {section.softwareSkills.map((skill, i) => {
                       return (
                         <Fragment key={i}>
-                          <div className="icon icon-lg icon-shape shadow-sm rounded-circle m-1" id={skill.skillName.replace(/\s/g, '')}>
-                            <Icon icon={skill.fontAwesomeClassname} data-inline="false"></Icon>
+                          <div
+                            className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
+                            id={skill.skillName.replace(/\s/g, "")}
+                          >
+                            <Icon
+                              icon={skill.fontAwesomeClassname}
+                              data-inline="false"
+                            ></Icon>
                           </div>
-                          <UncontrolledTooltip delay={0} placement="bottom" target={skill.skillName.replace(/\s/g, '')}>
+                          <UncontrolledTooltip
+                            delay={0}
+                            placement="bottom"
+                            target={skill.skillName.replace(/\s/g, "")}
+                          >
                             {skill.skillName}
                           </UncontrolledTooltip>
                         </Fragment>

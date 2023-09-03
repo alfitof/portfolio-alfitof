@@ -11,11 +11,11 @@ const Projects = () => {
         <div className="d-flex p-3">
           <div>
             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-              <i className="ni ni-laptop text-purple" />
+              <i className="ni ni-laptop text-red" />
             </div>
           </div>
           <div className="pl-4">
-            <h4 className="display-2 text-purple">Projects</h4>
+            <h4 className="display-2 text-red">Projects</h4>
           </div>
         </div>
         <Row className="row-grid align-items-center">
@@ -65,7 +65,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon mt-4 bg-gradient-purple"
+                        className="btn-icon mt-4 bg-gradient-red"
                         href="https://ase-lab.vercel.app/"
                         target="_blank"
                         rel="noopener"
@@ -210,7 +210,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon mt-4 bg-gradient-purple"
+                        className="btn-icon mt-4 bg-gradient-red"
                         href="https://droozle.netlify.app/"
                         target="_blank"
                         rel="noopener"
@@ -260,7 +260,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon  mt-4 bg-gradient-purple"
+                        className="btn-icon  mt-4 bg-gradient-red"
                         href="https://www.figma.com/proto/3iLspw3IrqBkjEfkM0kwUK/KliniQ-(Tim-Restu-Ibu)?node-id=26%3A80&scaling=scale-down&page-id=0%3A1&starting-point-node-id=26%3A80"
                         target="_blank"
                         rel="noopener"
@@ -319,7 +319,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon mt-4 bg-gradient-purple"
+                        className="btn-icon mt-4 bg-gradient-red"
                         href="https://portfolio-alfitof.vercel.app/"
                         target="_blank"
                         rel="noopener"
@@ -381,7 +381,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon mt-4 bg-gradient-purple"
+                        className="btn-icon mt-4 bg-gradient-red"
                         href="https://kokumi-drink.vercel.app/"
                         target="_blank"
                         rel="noopener"
@@ -450,7 +450,7 @@ const Projects = () => {
                         </span>
                       </Button>
                       <Button
-                        className="btn-icon mt-4 bg-gradient-purple"
+                        className="btn-icon mt-4 bg-gradient-red"
                         href="https://chicken-william.vercel.app/"
                         target="_blank"
                         rel="noopener"
@@ -503,6 +503,138 @@ const Projects = () => {
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                </CardBody>
+              </Card>
+            </Fade>
+          </Col>
+          <Col lg="6">
+            <Fade bottom duration={2000}>
+              <Card className="mt-4">
+                <CardBody>
+                  <div className="d-flex px-3">
+                    <div className="pl-4">
+                      <h3>Rudi Russel Profile</h3>
+                      <p className="description mt-3">
+                        Rudi Russell Company Profile built with nextJS and
+                        tailwindCSS which can introduce the company to people
+                      </p>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-light-next"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-tailwind"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <br />
+                      <Button
+                        className="btn-icon mt-4"
+                        color="github"
+                        href="https://github.com/alfitof/rudi-russel-academy"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Github"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                      <Button
+                        className="btn-icon mt-4 bg-gradient-red"
+                        href="https://rudirussel-academy.vercel.app/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-arrow-right mr-2 text-white" />
+                        </span>
+                        <span className="nav-link-inner--text ml-1 text-white">
+                          Demo
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                </CardBody>
+              </Card>
+            </Fade>
+          </Col>
+          <Col lg="6">
+            <Fade bottom duration={2000}>
+              <Card className="mt-4">
+                <CardBody>
+                  <div className="d-flex px-3">
+                    <div className="pl-4">
+                      <h3>Logbook AirNav Website</h3>
+                      <p className="description mt-3">
+                        AirNav Website Notebook is built with nextJS,
+                        tailwindCSS and Firebase which can keep track of all the
+                        quality of the tools in AirNav
+                      </p>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-light-next"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-firebase"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-tailwind"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <br />
+                      <Button
+                        className="btn-icon mt-4"
+                        color="github"
+                        disabled
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Github"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                      <Button
+                        className="btn-icon mt-4 bg-gradient-red"
+                        href="https://log-book-app.vercel.app/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-arrow-right mr-2 text-white" />
+                        </span>
+                        <span className="nav-link-inner--text ml-1 text-white">
+                          Demo
                         </span>
                       </Button>
                     </div>

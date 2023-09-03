@@ -18,7 +18,7 @@ const ExperienceCard = ({ data }) => {
       <Fade left duration={2000}>
         <Card
           style={{ flex: 1 }}
-          className="shadow-lg--hover mb-5 shadow border-0 text-center rounded-xl"
+          className="shadow-lg--hover mb-3 shadow border-0 text-center rounded-xl"
         >
           <CardBody className="">
             <Image

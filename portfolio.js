@@ -4,7 +4,7 @@ export const greetings = {
   description:
     "I am passionate as a Software Engineer having web application experience with React, Next.js, PHP, Codeigniter, and CSS Framework with Tailwind and bootstrap.",
   resumeLink:
-    "https://drive.google.com/file/d/1rxiNA50hKsAkE1wadiu5Nqm1gy7Q9tHb/view?usp=sharing",
+    "https://drive.google.com/file/d/1Dp6FOl1elatoB7rRYsO9nseNaBElMcvn/view?usp=sharing",
 };
 
 export const openSource = {
@@ -28,8 +28,9 @@ export const skillsSection = {
       title: "Software Engineer",
       lottieAnimationFile: "/lottie/skills/fullstack.json",
       skills: [
-        "Building Responsive E-Commerce in Codeigniter",
         "Building responsive portfolio websites using Next.js",
+        "Building Logbook AirNav websites using Next.js & Firebase",
+        "Building Learning Management System websites using Next.js & Firebase",
       ],
       softwareSkills: [
         {
@@ -77,6 +78,10 @@ export const skillsSection = {
           skillName: "MongoDB",
           fontAwesomeClassname: "vscode-icons:file-type-mongo",
         },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "vscode-icons:file-type-firebase",
+        },
       ],
     },
   ],
@@ -85,7 +90,7 @@ export const skillsSection = {
 export const SkillBars = [
   {
     Stack: "Frontend",
-    progressPercentage: "70",
+    progressPercentage: "80",
   },
   {
     Stack: "Backend",
@@ -93,7 +98,7 @@ export const SkillBars = [
   },
   {
     Stack: "Design",
-    progressPercentage: "75",
+    progressPercentage: "70",
   },
 ];
 
@@ -111,10 +116,12 @@ export const educationInfo = [
     schoolName: "Telkom University",
     subHeader: "Bachelor of Information Technology",
     duration: "2020 - 2024",
-    grade: "3.66",
+    grade: "3.69",
     descBullets: [
       "Participated in web creation for SMEs in the IT profession course.",
       "Did an internship at Advanced Software Engineer Laboratory",
+      "Did an Teaching Factory at Telkom Indonesia",
+      "Did an internship at Rudi Russel Academy",
     ],
   },
 ];
@@ -131,14 +138,14 @@ export const experience = [
     role: "Teaching Factory Frontend Developer",
     company: "Telkom DBT",
     companylogo: "/img/icons/common/telkom.png",
-    date: "Feb 2023 – Now",
+    date: "Feb 2023 – August 2023",
     desc: "I had the opportunity to enhance my skills in various technologies such as React, GitLab, Codebase, and more. I learned valuable lessons in teamwork and project management.",
   },
   {
     role: "Intern Frontend Developer",
     company: "PT. Rudi Russel Indonesia",
     companylogo: "/img/icons/common/logo.png",
-    date: "Jun 2023 – Now",
+    date: "Jun 2023 – August 2023",
     desc: "I intern as frontend web developer to redesign website Rudi Russel Academy design using NextJS and TailwindCSS",
   },
 ];

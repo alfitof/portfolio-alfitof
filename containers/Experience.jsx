@@ -14,11 +14,11 @@ const Experience = () => {
           <div className="d-flex px-4 pb-5">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                <i className="ni ni-briefcase-24 text-purple" />
+                <i className="ni ni-briefcase-24 text-red" />
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-2 text-purple">Experience</h4>
+              <h4 className="display-2 text-red">Experience</h4>
             </div>
           </div>
           <div className="align-items-start">

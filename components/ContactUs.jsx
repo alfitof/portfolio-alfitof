@@ -54,7 +54,7 @@ export const ContactUs = () => {
           <Container>
             <Row className="justify-content-center">
               <Col lg="8">
-                <Card className="bg-gradient-purple shadow">
+                <Card className="bg-gradient-red shadow">
                   <CardBody className="p-lg-5">
                     <h4 className="mb-1 text-white">Want to work with me?</h4>
                     <p className="mb-1 text-white">

@@ -15,7 +15,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-purple">
+          <div className="shape shape-style-1 bg-gradient-red">
             <span />
             <span />
             <span />
@@ -24,7 +24,7 @@ const Greetings = () => {
             <span />
             <span />
           </div>
-          <Container className="card card-greeting py-lg-md d-flex">
+          <Container className="card card-greeting my-6 py-lg-md d-flex">
             <div className="col px-0">
               <Row>
                 <Col lg="6" className="card-body-greeting">
