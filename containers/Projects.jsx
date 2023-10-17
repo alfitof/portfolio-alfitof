@@ -378,6 +378,7 @@ const Projects = () => {
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
+                          https://rudirussel-akademie.com
                         </span>
                       </Button>
                       <Button
@@ -544,10 +545,11 @@ const Projects = () => {
                       <Button
                         className="btn-icon mt-4"
                         color="github"
-                        href="https://github.com/alfitof/rudi-russel-academy"
+                        href="#"
                         target="_blank"
                         rel="noopener"
                         aria-label="Github"
+                        disabled
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
@@ -555,7 +557,7 @@ const Projects = () => {
                       </Button>
                       <Button
                         className="btn-icon mt-4 bg-gradient-red"
-                        href="https://rudirussel-academy.vercel.app/"
+                        href="https://rudirussel-akademie.com"
                         target="_blank"
                         rel="noopener"
                       >
@@ -627,6 +629,78 @@ const Projects = () => {
                       <Button
                         className="btn-icon mt-4 bg-gradient-red"
                         href="https://log-book-app.vercel.app/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-arrow-right mr-2 text-white" />
+                        </span>
+                        <span className="nav-link-inner--text ml-1 text-white">
+                          Demo
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                </CardBody>
+              </Card>
+            </Fade>
+          </Col>
+          <Col lg="6">
+            <Fade bottom duration={2000}>
+              <Card className="mt-4">
+                <CardBody>
+                  <div className="d-flex px-3">
+                    <div className="pl-4">
+                      <h3>LMS Rudi Russel</h3>
+                      <p className="description mt-3">
+                        LMS Rudi Russel, powered by NextJS, TailwindCSS, and
+                        Firebase, which can seamlessly integrates interactive
+                        interfaces, and delivering a comprehensive e-learning
+                        experience.
+                      </p>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-light-next"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-firebase"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <div
+                        className="icon icon-sm d-inline icon-shape-sm shadow-sm rounded-sm my-1 mr-2"
+                        id="html"
+                      >
+                        <Icon
+                          icon="vscode-icons:file-type-tailwind"
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <br />
+                      <Button
+                        className="btn-icon mt-4"
+                        color="github"
+                        disabled
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Github"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                      <Button
+                        className="btn-icon mt-4 bg-gradient-red"
+                        href="https://db-rudirussel.vercel.app/"
                         target="_blank"
                         rel="noopener"
                       >
