@@ -378,7 +378,7 @@ const Projects = () => {
                       >
                         <span className="btn-inner--icon">
                           <i className="fa fa-github" />
-                          https://rudirussel-akademie.com
+                          
                         </span>
                       </Button>
                       <Button
